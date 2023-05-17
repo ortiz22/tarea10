@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.pedro;
+package com.laila;
 
-import com.pedro.dao.ContactoDAO;
-import com.pedro.dao.ContactoDAOImpl;
+import com.laila.dao.ContactoDAO;
+import com.laila.dao.ContactoDAOImpl;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -15,10 +15,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- *
- * @author JuaN
- */
+
 @WebServlet(urlPatterns = "/ContactoServlet")
 public class ContactoServlet extends HttpServlet {
 
